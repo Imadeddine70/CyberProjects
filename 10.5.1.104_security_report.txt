@@ -1,0 +1,9 @@
+--- Security Report for 10.5.1.104 ---
+
+Protocol: tcp
+Port 135: open, service: msrpc
+Port 137: filtered, service: netbios-ns
+Port 139: open, service: netbios-ssn
+Port 445: open, service: microsoft-ds
+Port 903: open, service: vmware-auth
+Port 913: open, service: vmware-auth
