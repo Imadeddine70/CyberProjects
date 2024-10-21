@@ -10,9 +10,10 @@
     <div class="container">
         <h1>Network Vulnerability Scanner</h1>
         <form id="scanner-form">
-            <label for="target-ip">Enter Target IP Address:</label>
-            <input type="text" id="target-ip" required>
-            <button type="submit">Scan</button>
+            <label for="target-ip">Enter Target IP Addresses (comma separated):</label>
+            <input type="text" id="target-ip" placeholder="192.168.1.1, example.com" required>
+            <button type="submit" id="scan-button">Scan</button>
+            <div id="loading" class="loading" style="display: none;">Scanning...</div>
         </form>
         <div id="output">
             <!-- Scan results will be displayed here -->
